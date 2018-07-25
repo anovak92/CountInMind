@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Transparent" parent="Base.Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="Answer">
+        <item name="android:visibility">invisible</item>
+        <item name="android:textColor">@color/answerButtonText</item>
+        <item name="android:width">@dimen/answer_size</item>
+        <item name="android:height">@dimen/answer_size</item>
+        <item name="android:layout_margin">@dimen/answer_margin</item>
+        <item name="android:textSize">@dimen/answer_text_size</item>
+        <item name="android:background">@drawable/blackboard</item>
+    </style>
+
+</resources>

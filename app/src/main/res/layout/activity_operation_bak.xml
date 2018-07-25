@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/operation_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OperationActivity"
+    android:gravity="bottom"
+    android:padding="@dimen/general_padding">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/operation_screen_margin"
+        >
+
+        <ImageView
+            android:id="@+id/left_operand"
+            android:layout_width="@dimen/operand_width"
+            android:layout_height="@dimen/operand_height" />
+        <ImageView
+            android:id="@+id/operation_image"
+            android:layout_width="@dimen/operation_size"
+            android:layout_height="@dimen/operation_size" />
+        <ImageView
+            android:id="@+id/right_operand"
+            android:layout_width="@dimen/operand_width"
+            android:layout_height="@dimen/operand_height" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/answers_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option1"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option2"
+            android:textSize="20dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option3"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="option4"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>
